@@ -1,3 +1,2 @@
 rdflib==6.3.2
-streamlit==1.20.0
 fuzzywuzzy==0.18.0
