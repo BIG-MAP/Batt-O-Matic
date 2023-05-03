@@ -1,0 +1,34 @@
+{
+    "@context": "my_context",
+    "@id": "http://rdf.batterymodel.com/213e2159-19ef-445b-b1ff-7a8c05f7cbc2",
+    "@type": "qb:DataSet",
+    "dcat:title": "Some understandable dataset title",
+    "dcat:description": "A description of the file, e.g., A CSV file containing the results of a cell discharging experiment.",
+    "dcat:accessURL": "URL to download the file",
+    "dcat:format": "text/csv",
+    "dcterms:subject": "e.g. http://www.example.com/8675309",
+    "dcat:descripton": "A description of the dataset",
+    "dcat:structure": {
+        "@type": "qb:DataStructureDefinition",
+        "dcat:component": [
+            {
+                "@type": "qb:ComponentSpecification",
+                "qb:dimension": "http://emmo.info/electrochemistry#electrochemistry_27b3799c_250c_4332_8b71_7992c4a7bb05",
+                "qb:unit": "http://emmo.info/emmo#EMMO_314ba716_2d3d_4462_9a4f_d3419ae1df43",
+                "qb:order": 1
+            },
+            {
+                "@type": "qb:ComponentSpecification",
+                "qb:dimension": "https://big-map.github.io/BattINFO/ontology/electrochemistry#EMMO_4ebe2ef1_eea8_4b10_822d_7a68215bd24d",
+                "qb:unit": "http://emmo.info/emmo#EMMO_e2207e91_02b0_4a8a_b13e_61d2a2a839f1",
+                "qb:order": 2
+            },
+            {
+                "@type": "qb:ComponentSpecification",
+                "qb:dimension": "http://emmo.info/electrochemistry#electrochemistry_637ee9c4_4b3f_4d3a_975b_c0572dfe53ce",
+                "qb:unit": "http://emmo.info/emmo#EMMO_db5dd38d_ac79_4af6_8782_fee7e7150ae8",
+                "qb:order": 3
+            }
+        ]
+    }
+}
