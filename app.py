@@ -149,14 +149,15 @@ default_dict = json.loads(json_string)
 #st.write(default_dict)
 
 def load_from_file():
-    agree = st.checkbox('Load from file')
-    json_dict = {}
-    if agree:
-        uploaded_file = st.file_uploader("Upload a JSON-LD metadata profile", accept_multiple_files=False)
-        if uploaded_file is not None:
-            content = uploaded_file.read()
-            json_dict = json.loads(content.decode('utf-8'))
-    return json_dict
+    with st.expander("Upload Cell Profile From File"):
+        agree = st.checkbox('Load from file')
+        json_dict = {}
+        if agree:
+            uploaded_file = st.file_uploader("Upload a JSON-LD metadata profile", accept_multiple_files=False)
+            if uploaded_file is not None:
+                content = uploaded_file.read()
+                json_dict = json.loads(content.decode('utf-8'))
+        return json_dict
 
 def load_default_values(input_dict):
     #st.write(input_dict)
@@ -439,22 +440,23 @@ def round_cell_properties(default_values):
 
 
 def set_cell_formats(default_values):
-    formats = ['Coin', 'Cylindrical', 'Pouch', 'Prismatic']
-    col1, col2 = st.columns(2)
-    with col1:
-        format_option = st.selectbox(
-        'Battery Cell Format',
-        formats, index=formats.index(default_values["format"]))
+    with st.expander("Battery Cell Format"):
+        formats = ['Coin', 'Cylindrical', 'Pouch', 'Prismatic']
+        col1, col2 = st.columns(2)
+        with col1:
+            format_option = st.selectbox(
+            'Battery Cell Format',
+            formats, index=formats.index(default_values["format"]))
 
-    with col2:
-        if format_option == 'Coin':
-            types = ['R2032', 'R2016', 'Other']
-            type_option = st.selectbox('Standard Size',types)
-        elif format_option == 'Cylindrical':
-            types = ['1865', '2170', '4680']
-            type_option = st.selectbox('Standard Size',types)
-        else:
-            type_option = 'Other'
+        with col2:
+            if format_option == 'Coin':
+                types = ['R2032', 'R2016', 'Other']
+                type_option = st.selectbox('Standard Size',types)
+            elif format_option == 'Cylindrical':
+                types = ['1865', '2170', '4680']
+                type_option = st.selectbox('Standard Size',types)
+            else:
+                type_option = 'Other'
     return{"cell_format": {"value": format_option}, 
         "cell_type": {"value": type_option}}
 
