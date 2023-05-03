@@ -1620,7 +1620,8 @@ st.write("Generate FAIR battery metadata")
 
 if "data_button_clicked" not in st.session_state:
     st.session_state.data_button_clicked = False
-elif "custom_cell_button_clicked" not in st.session_state:
+
+if "custom_cell_button_clicked" not in st.session_state:
     st.session_state.custom_cell_button_clicked = False
 
 cols = st.columns(3)
