@@ -1619,7 +1619,9 @@ st.write("Generate FAIR battery metadata")
 #     st.markdown("This is a Streamlit app for ...")
 
 if "data_button_clicked" not in st.session_state:
-        st.session_state.data_button_clicked = False
+    st.session_state.data_button_clicked = False
+elif "custom_cell_button_clicked" not in st.session_state:
+    st.session_state.custom_cell_button_clicked = False
 
 cols = st.columns(3)
 with cols[0]:
@@ -1631,10 +1633,13 @@ with cols[2]:
 
 if data_button:
     st.session_state.data_button_clicked = True
+elif custom_cell_button:
+    st.session_state.custom_cell_button_clicked = True
+
 # st.write("")
 # st.write("")
 
-if custom_cell_button == True:
+if st.session_state.custom_cell_button_clicked:
 
     custom_cell_annotator()
 
