@@ -5,12 +5,10 @@ import uuid
 import datetime
 import pandas as pd
 import re
-import plotly.express as px
 
 from collections import defaultdict
 from rdflib import Graph, URIRef, Namespace, Literal
 from rdflib.namespace import RDF, RDFS, SKOS
-from streamlit_agraph import agraph, TripleStore, Node, Edge, Config
 from rdflib.plugins.sparql import prepareQuery
 from fuzzywuzzy import fuzz, process
 
