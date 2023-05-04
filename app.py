@@ -895,7 +895,7 @@ def disperse_json_to_fields():
 
 
 def disperse_fields_to_json(format_data, production_properties, physical_properties, electrical_properties, pe_properties, ne_properties, separator_properties, electrolyte_properties):
-    with open('BatteryCell.jsonld') as f:
+    with open(f"{datadir}/BatteryCell.jsonld") as f:
         jsonld_data = json.load(f)
 
     # Cell Production Properties

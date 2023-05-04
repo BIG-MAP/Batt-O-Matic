@@ -1,0 +1,591 @@
+{
+    "@context":
+    {
+        "batt": "http://emmo.info/battery#",
+        "echm": "http://emmo.info/electrochemistry#",
+        "emmo": "http://emmo.info/emmo#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "schema": "https://schema.org/",
+        "BatteryCell": "http://emmo.info/battery#battery_68ed592a_7924_45d0_a108_94d6275d57f0",
+        "CurrentCollector": "http://emmo.info/electrochemistry#electrochemistry_212af058_3bbb_419f_a9c6_90ba9ebb3706",
+        "ActiveMaterial": "http://emmo.info/electrochemistry#electrochemistry_79d1b273-58cd-4be6-a250-434817f7c261",
+        "Binder": "http://emmo.info/electrochemistry#electrochemistry_68eb5e35_5bd8_47b1_9b7f_f67224fa291e",
+        "ConductiveAdditive": "http://emmo.info/electrochemistry#electrochemistry_82fef384_8eec_4765_b707_5397054df594",
+        "Electrode": "http://emmo.info/electrochemistry#electrochemistry_0f007072-a8dd-4798-b865-1bf9363be627",
+        "PositiveElectrode": "http://emmo.info/electrochemistry#electrochemistry_aff732a9_238a_4734_977c_b2ba202af126",
+        "NegativeElectrode": "http://emmo.info/electrochemistry#electrochemistry_c94c041b_8ea6_43e7_85cc_d2bce7785b4c",
+        "ElectrodeCoating": "http://emmo.info/electrochemistry#electrochemistry_403c300e_09b9_400b_943b_04e82a3cfb56",
+        "Separator": "http://emmo.info/electrochemistry#electrochemistry_331e6cca_f260_4bf8_af55_35304fe1bbe0",
+        "ElectrolyteSolution": "http://emmo.info/electrochemistry#electrochemistry_fa22874b_76a9_4043_8b8f_6086c88746de",
+        "Material": "http://emmo.info/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94",
+        "ChemicalMaterial": "http://emmo.info/emmo#EMMO_8a41ed1b_64f9_4be7_9b60_01fcece45075",
+        "Aluminium": "http://emmo.info/emmo#EMMO_c5c2f0a6_9bc6_4c89_b067_8974424f8684",
+        "Copper": "http://emmo.info/emmo#EMMO_23a35b64_9241_4c96_85b9_1e2a6acc2e4d",
+        "LithiumIronPhosphate": "http://emmo.info/emmo#EMMO_321ea507_e363_4676_80dc_7f7f566ce2e2",
+        "LithiumCobaltOxide": "http://emmo.info/emmo#EMMO_0e2732d8_768d_49f8_bfd0_7acac607a7c7",
+        "LithiumManganeseOxide": "http://emmo.info/emmo#EMMO_02406a36_20f9_4ca7_8533_1a855183c4fd",
+        "LithiumNickelCobaltAluminiumOxide": "http://emmo.info/emmo#EMMO_011d6907_0941_4dd4_88c6_91532dd46cf5",
+        "LithiumNickelManganeseCobaltOxide": "http://emmo.info/emmo#EMMO_4950a41c_ae32_4ce9_9db9_0076bbcac18f",
+        "LithiumNickelOxide": "http://emmo.info/emmo#EMMO_7f1ff695_0aaa_41fc_9bdc_deefa33be78d",
+        "PropyleneCarbonate": "http://emmo.info/emmo#EMMO_0dabc3b4_905f_4cca_b39a_4776f4345e51",
+        "VinyleneCarbonate": "http://emmo.info/emmo#EMMO_63a26b9e_9d1c_40e6_8938_e28ba89eb79d",
+
+
+        "Graphite": "http://emmo.info/emmo#EMMO_5dd27e7d_c38f_4a81_8d09_d81463806ad7",
+        "Silicon": "http://emmo.info/emmo#EMMO_514673fd_80b8_4624_908a_b1c0fcae36f6",
+        "Lithium": "http://emmo.info/emmo#EMMO_16ffa079_3623_45dc_a42f_34aacf99c0e8",
+        "LithiumHexafluorophosphate": "http://emmo.info/emmo#EMMO_883a9b8f_616d_4fb6_9a33_e39421ff7837",
+        "LithiumBistriflimide": "http://emmo.info/emmo#EMMO_77384f40_48df_46da_8060_828fadd67930",
+        "DiethyleneCarbonate": "http://emmo.info/emmo#EMMO_786e1bc4_dce2_469b_aab4_bb022075da2d",
+        "DimethylCarbonate": "http://emmo.info/emmo#EMMO_05c38ac1_a9cb_4583_ad74_ec979240d422",
+        "EthyleneCarbonate": "http://emmo.info/emmo#EMMO_d986566b_310d_4ae4_bbd3_68cb1b218dac",
+        "EthylmethylCarbonate": "http://emmo.info/emmo#EMMO_82c4bf03_cff2_457f_8c98_7fbdc50e2d63",
+        "FluoroethyleneCarbonate": "http://emmo.info/emmo#EMMO_41b81a4e_7811_4f50_b15d_ea7be378b989",
+
+        "PolyvinylFluoride": "http://emmo.info/emmo#EMMO_6c03b6b7_a50e_4575_9708_0d4f18a3c358",
+        "CarboxymethylCellulose": "http://emmo.info/emmo#EMMO_5805174a_71da_4263_b4d4_c2868cceeef7",
+        "CarbonBlack": "http://emmo.info/emmo#EMMO_3c7275df_f77a_44b2_9821_1a42f61951a8",
+        "Mass": "http://emmo.info/emmo#EMMO_ed4af7ae_63a2_497e_bb88_2309619ea405",
+        "Volume": "http://emmo.info/emmo#EMMO_f1a51559_aa3d_43a0_9327_918039f0dfed",
+        "Length": "http://emmo.info/emmo#EMMO_cd2cd0de_e0cc_4ef1_b27e_2e88db027bac",
+        "Width": "http://emmo.info/emmo#EMMO_e4de48b1_dabb_4490_ac2b_040f926c64f0",
+        "Height": "http://emmo.info/emmo#EMMO_08bcf1d6_e719_46c8_bb21_24bc9bf34dba",
+        "Thickness": "http://emmo.info/emmo#EMMO_43003c86_9d15_433b_9789_ee2940920656",
+        "MassFraction": "http://emmo.info/emmo#EMMO_7c055d65_2929_40e1_af4f_4bf10995ad50",
+        "Porosity": "http://emmo.info/emmo#EMMO_3a6578ac_aee0_43b9_9bc6_1eb208c8c9a9",
+        "NumberOfEntities": "http://emmo.info/emmo#EMMO_41efdf5d_0c9c_4ea0_bb65_f8236e663be5",
+        "AmountConcentration": "http://emmo.info/emmo#EMMO_d5be1faf_0c56_4f5a_9b78_581e6dee949f",
+        "ArealCapacity": "http://emmo.info/electrochemistry#electrochemistry_bcb33f7e_5573_4bc2_b636_4ea313a9dd3a",
+        "SpecificCapacity": "http://emmo.info/electrochemistry#electrochemistry_1e3dc60d_dd6b_47d6_8161_70004fc5ee30",
+        "Density": "http://emmo.info/emmo#EMMO_06448f64_8db6_4304_8b2c_e785dba82044",
+        "MassLoading": "http://example.com/my_temporary_mass_loading_XXX",
+        "Real": "http://emmo.info/emmo#EMMO_18d180e4_5e3e_42f7_820c_e08951223486",
+        "created": {
+            "@id": "http://purl.org/dc/terms/created",
+            "@type": "@id"
+        },
+        "hasConstituent":
+        {
+            "@id": "http://emmo.info/emmo#EMMO_dba27ca1_33c9_4443_a912_1519ce4c39ec",
+            "@type": "@id"
+        },
+        "hasElectrode": 
+        {
+            "@id": "http://emmo.info/electrochemistry#electrochemistry_578c41e9_ee01_4840_9c8c_04ab6e4e6241",
+            "@type": "@id"
+        },
+        "hasPositiveElectrode": 
+        {
+            "@id": "http://emmo.info/electrochemistry#electrochemistry_8e9cf965_9f92_46e8_b678_b50410ce3616",
+            "@type": "@id"
+        },
+        "hasNegativeElectrode": 
+        {
+            "@id": "http://emmo.info/electrochemistry#electrochemistry_5d299271_3f68_494f_ab96_3db9acdd3138",
+            "@type": "@id"
+        },
+        "hasElectrolyte": 
+        {
+            "@id": "http://emmo.info/electrochemistry#electrochemistry_3bd08946_4e81_455d_9fca_dc7a5ead9315",
+            "@type": "@id"
+        },
+        "hasSeparator": 
+        {
+            "@id": "http://emmo.info/electrochemistry#electrochemistry_46926f27_d575_4dbc_bbe8_bce0f92e0c3c",
+            "@type": "@id"
+        },
+        "hasQuantitativeProperty": 
+        {
+            "@id": "http://emmo.info/emmo#EMMO_0aa934ee_1ad4_4345_8a7f_bc73ec67c7e5",
+            "@type": "@id"
+        },
+        "hasReferenceUnit": 
+        {
+            "@id": "http://emmo.info/emmo#EMMO_67fc0a36_8dcb_4ffa_9a43_31074efa3296",
+            "@type": "@id"
+        },
+        "hasQuantityValue":
+        {
+            "@id": "http://emmo.info/emmo#EMMO_8ef3cd6d_ae58_4a8d_9fc0_ad8f49015cd0"
+        },
+        "hasNumericalData":
+        {
+            "@id": "http://emmo.info/emmo#EMMO_faf79f53_749d_40b2_807c_d34244c192f4"
+        }
+    },
+    "@type": "BatteryCell",
+    "schema:name": {},
+    "schema:productionDate": {},
+    "schema:manufacturer": 
+    {
+        "@type": "schema:Organization",
+        "schema:name": {}
+    },
+    "schema:creator":
+    {
+        "@type": "schema:Person",
+        "schema:name": {},
+        "schema:givenName": {},
+        "schema:familyName": {}
+    },
+    "hasQuantitativeProperty": [
+        {
+            "@type": "Mass",
+            "hasReferenceUnit": "emmo:EMMO_9bfd6f1e_b0ce_459c_beb7_8f1f41708bba",
+            "hasQuantityValue": {
+                "@type": "Real",
+                "hasNumericalData": []
+            }
+        },
+        {
+            "@type": "Width",
+            "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+            "hasQuantityValue":{
+                "@type": "Real",
+                "hasNumericalData": []
+            }
+        },
+        {
+            "@type": "Height",
+            "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+            "hasQuantityValue":{
+                "@type": "Real",
+                "hasNumericalData": []
+            }
+        },
+        {
+            "@type": "Thickness",
+            "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+            "hasQuantityValue":{
+                "@type": "Real",
+                "hasNumericalData": []
+            }
+        }
+    ],
+    "hasPositiveElectrode":
+    {
+        "@type": "PositiveElectrode",
+        "hasQuantitativeProperty":[
+            {
+                "@type": "NumberOfEntities",
+                "hasReferenceUnit": "PureNumberUnit",
+                "hasQuantityValue": {
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            },
+            {
+                "@type": "MassLoading",
+                "hasReferenceUnit": "emmo:EMMO_a38b5d19_6723_4116_acec_ace4dd1c9cf5",
+                "hasQuantityValue": {
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            },
+            {
+                "@type": "Width",
+                "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+                "hasQuantityValue":{
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            },
+            {
+                "@type": "Height",
+                "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+                "hasQuantityValue":{
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            },
+            {
+                "@type": "Thickness",
+                "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+                "hasQuantityValue":{
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            },
+            {
+                "@type": "Mass",
+                "hasReferenceUnit": "emmo:EMMO_9bfd6f1e_b0ce_459c_beb7_8f1f41708bba",
+                "hasQuantityValue": {
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            }
+            
+        ],
+        "hasConstituent": [
+            {
+                "@type": "CurrentCollector",
+                "hasQuantitativeProperty": [
+                    {
+                        "@type": "Thickness",
+                        "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+                        "hasQuantityValue":{
+                            "@type": "Real",
+                            "hasNumericalData": []
+                        }
+                    },
+                    {
+                        "@type": "Mass",
+                        "hasReferenceUnit": "emmo:EMMO_9bfd6f1e_b0ce_459c_beb7_8f1f41708bba",
+                        "hasQuantityValue": {
+                            "@type": "Real",
+                            "hasNumericalData": []
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "ElectrodeCoating",
+                "hasQuantitativeProperty": [
+                    {
+                        "@type": "Thickness",
+                        "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+                        "hasQuantityValue":{
+                            "@type": "Real",
+                            "hasNumericalData": []
+                        }
+                    }
+                ],
+                "hasConstituent":[
+                    {
+                        "@type": "ActiveMaterial",
+                        "hasQuantitativeProperty":[
+                            {
+                                "@type": "MassFraction",
+                                "hasReferenceUnit": "emmo:EMMO_18448443_dcf1_49b8_a321_cf46e2c393e1",
+                                "hasQuantityValue": {
+                                    "@type": "Real",
+                                    "hasNumericalData": []
+                                }
+                            },
+                            {
+                                "@type": "Density",
+                                "hasReferenceUnit": "emmo:EMMO_7325c384_611b_4f7d_bff8_5aac5c5f7fbb",
+                                "hasQuantityValue": {
+                                    "@type": "Real",
+                                    "hasNumericalData": []
+                                }
+                            },
+                            {
+                                "@type": "SpecificCapacity",
+                                "hasReferenceUnit": "emmo:EMMO_63b139c2_e79b_49a0_b787_d0cd5fdae943",
+                                "hasQuantityValue": {
+                                    "@type": "Real",
+                                    "hasNumericalData": []
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "Binder",
+                        "hasQuantitativeProperty":[
+                            {
+                                "@type": "MassFraction",
+                                "hasReferenceUnit": "emmo:EMMO_18448443_dcf1_49b8_a321_cf46e2c393e1",
+                                "hasQuantityValue": {
+                                    "@type": "Real",
+                                    "hasNumericalData": []
+                                }
+                            },
+                            {
+                                "@type": "Density",
+                                "hasReferenceUnit": "emmo:EMMO_7325c384_611b_4f7d_bff8_5aac5c5f7fbb",
+                                "hasQuantityValue": {
+                                    "@type": "Real",
+                                    "hasNumericalData": []
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "ConductiveAdditive",
+                        "hasQuantitativeProperty":[
+                            {
+                                "@type": "MassFraction",
+                                "hasReferenceUnit": "emmo:EMMO_18448443_dcf1_49b8_a321_cf46e2c393e1",
+                                "hasQuantityValue": {
+                                    "@type": "Real",
+                                    "hasNumericalData": []
+                                }
+                            },
+                            {
+                                "@type": "Density",
+                                "hasReferenceUnit": "emmo:EMMO_7325c384_611b_4f7d_bff8_5aac5c5f7fbb",
+                                "hasQuantityValue": {
+                                    "@type": "Real",
+                                    "hasNumericalData": []
+                                }
+                            }
+                        ]
+                    }
+                ]
+                
+            }
+        ]
+    },
+    "hasNegativeElectrode":
+    {
+        "@type": "PositiveElectrode",
+        "hasQuantitativeProperty":[
+            {
+                "@type": "NumberOfEntities",
+                "hasReferenceUnit": "PureNumberUnit",
+                "hasQuantityValue": {
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            },
+            {
+                "@type": "MassLoading",
+                "hasReferenceUnit": "emmo:EMMO_a38b5d19_6723_4116_acec_ace4dd1c9cf5",
+                "hasQuantityValue": {
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            },
+            {
+                "@type": "Width",
+                "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+                "hasQuantityValue":{
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            },
+            {
+                "@type": "Height",
+                "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+                "hasQuantityValue":{
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            },
+            {
+                "@type": "Thickness",
+                "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+                "hasQuantityValue":{
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            },
+            {
+                "@type": "Mass",
+                "hasReferenceUnit": "emmo:EMMO_9bfd6f1e_b0ce_459c_beb7_8f1f41708bba",
+                "hasQuantityValue": {
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            }
+            
+        ],
+        "hasConstituent": [
+            {
+                "@type": "CurrentCollector",
+                "hasQuantitativeProperty": [
+                    {
+                        "@type": "Thickness",
+                        "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+                        "hasQuantityValue":{
+                            "@type": "Real",
+                            "hasNumericalData": []
+                        }
+                    },
+                    {
+                        "@type": "Mass",
+                        "hasReferenceUnit": "emmo:EMMO_9bfd6f1e_b0ce_459c_beb7_8f1f41708bba",
+                        "hasQuantityValue": {
+                            "@type": "Real",
+                            "hasNumericalData": []
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "ElectrodeCoating",
+                "hasQuantitativeProperty": [
+                    {
+                        "@type": "Thickness",
+                        "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+                        "hasQuantityValue":{
+                            "@type": "Real",
+                            "hasNumericalData": []
+                        }
+                    }
+                ],
+                "hasConstituent":[
+                    {
+                        "@type": "ActiveMaterial",
+                        "hasQuantitativeProperty":[
+                            {
+                                "@type": "MassFraction",
+                                "hasReferenceUnit": "emmo:EMMO_18448443_dcf1_49b8_a321_cf46e2c393e1",
+                                "hasQuantityValue": {
+                                    "@type": "Real",
+                                    "hasNumericalData": []
+                                }
+                            },
+                            {
+                                "@type": "Density",
+                                "hasReferenceUnit": "emmo:EMMO_7325c384_611b_4f7d_bff8_5aac5c5f7fbb",
+                                "hasQuantityValue": {
+                                    "@type": "Real",
+                                    "hasNumericalData": []
+                                }
+                            },
+                            {
+                                "@type": "SpecificCapacity",
+                                "hasReferenceUnit": "emmo:EMMO_63b139c2_e79b_49a0_b787_d0cd5fdae943",
+                                "hasQuantityValue": {
+                                    "@type": "Real",
+                                    "hasNumericalData": []
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "Binder",
+                        "hasQuantitativeProperty":[
+                            {
+                                "@type": "MassFraction",
+                                "hasReferenceUnit": "emmo:EMMO_18448443_dcf1_49b8_a321_cf46e2c393e1",
+                                "hasQuantityValue": {
+                                    "@type": "Real",
+                                    "hasNumericalData": []
+                                }
+                            },
+                            {
+                                "@type": "Density",
+                                "hasReferenceUnit": "emmo:EMMO_7325c384_611b_4f7d_bff8_5aac5c5f7fbb",
+                                "hasQuantityValue": {
+                                    "@type": "Real",
+                                    "hasNumericalData": []
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "ConductiveAdditive",
+                        "hasQuantitativeProperty":[
+                            {
+                                "@type": "MassFraction",
+                                "hasReferenceUnit": "emmo:EMMO_18448443_dcf1_49b8_a321_cf46e2c393e1",
+                                "hasQuantityValue": {
+                                    "@type": "Real",
+                                    "hasNumericalData": []
+                                }
+                            },
+                            {
+                                "@type": "Density",
+                                "hasReferenceUnit": "emmo:EMMO_7325c384_611b_4f7d_bff8_5aac5c5f7fbb",
+                                "hasQuantityValue": {
+                                    "@type": "Real",
+                                    "hasNumericalData": []
+                                }
+                            }
+                        ]
+                    }
+                ]
+                
+            }
+        ]
+    },
+    "hasSeparator":
+    {
+        "@type": "Separator",
+        "hasQuantitativeProperty":[
+            {
+                "@type": "Mass",
+                "hasReferenceUnit": "emmo:EMMO_9bfd6f1e_b0ce_459c_beb7_8f1f41708bba",
+                "hasQuantityValue": {
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            },
+            {
+                "@type": "Width",
+                "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+                "hasQuantityValue":{
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            },
+            {
+                "@type": "Height",
+                "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+                "hasQuantityValue":{
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            },
+            {
+                "@type": "Thickness",
+                "hasReferenceUnit": "emmo:EMMO_24fee2b4_8d10_47b0_9224_51054284cdec",
+                "hasQuantityValue":{
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            },
+            {
+                "@type": "Porosity",
+                "hasReferenceUnit": "emmo:EMMO_9fd1e79d_41d1_44f8_8142_66dbdf0fc7ad",
+                "hasQuantityValue": {
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            }
+        ]
+    },
+    "hasElectrolyte":
+    {
+        "@type": "ElectrolyteSolution",
+        "hasQuantitativeProperty":[
+            {
+                "@type": "Volume",
+                "hasReferenceUnit": "emmo:EMMO_a155dc93_d266_487e_b5e7_2a2c72d5ebf9",
+                "hasQuantityValue": {
+                    "@type": "Real",
+                    "hasNumericalData": []
+                }
+            }
+        ],
+        "hasConstituent":[
+            {
+                "@type": "ChemicalMaterial",
+                "hasQuantitativeProperty": [
+                    {
+                        "@type": "AmountConcentration",
+                        "hasReferenceUnit": "emmo:EMMO_630acb48_c5c8_4b11_9d76_1342d7ed946f",
+                        "hasQuantityValue": {
+                            "@type": "Real",
+                            "hasNumericalData": []
+                        }
+                    }
+                ]
+                
+            },
+            {
+                "@type": "ChemicalMaterial",
+                "hasQuantitativeProperty": [
+                    {
+                        "@type": "MassFraction",
+                        "hasReferenceUnit": "emmo:EMMO_18448443_dcf1_49b8_a321_cf46e2c393e1",
+                        "hasQuantityValue": {
+                            "@type": "Real",
+                            "hasNumericalData": []
+                        }
+                    }
+                ]
+                
+            }
+        ]
+    }
+
+ }
+ 
