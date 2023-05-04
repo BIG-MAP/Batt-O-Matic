@@ -1447,8 +1447,7 @@ def custom_cell_annotator():
 
 def cell_identification_metadata():
     default_value = "e.g. http://www.example.com/8675309"
-    st.write("Upload cell metadata description or enter identifier manually below")
-    uploaded_file = st.file_uploader("Upload a JSON-LD metadata profile", accept_multiple_files=False)
+    uploaded_file = st.file_uploader("Upload cell metadata description or enter identifier manually below", accept_multiple_files=False)
     if uploaded_file is not None:
         content = uploaded_file.read()
         json_dict = json.loads(content.decode('utf-8'))
