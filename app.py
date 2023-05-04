@@ -150,13 +150,11 @@ default_dict = json.loads(json_string)
 
 def load_from_file():
     with st.expander("Upload Cell Profile From File"):
-        agree = st.checkbox('Load from file')
         json_dict = {}
-        if agree:
-            uploaded_file = st.file_uploader("Upload a JSON-LD metadata profile", accept_multiple_files=False)
-            if uploaded_file is not None:
-                content = uploaded_file.read()
-                json_dict = json.loads(content.decode('utf-8'))
+        uploaded_file = st.file_uploader("Upload a JSON-LD metadata profile", accept_multiple_files=False)
+        if uploaded_file is not None:
+            content = uploaded_file.read()
+            json_dict = json.loads(content.decode('utf-8'))
         return json_dict
 
 def load_default_values(input_dict):
