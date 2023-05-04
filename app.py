@@ -149,7 +149,7 @@ default_dict = json.loads(json_string)
 #st.write(default_dict)
 
 def load_from_file():
-    with st.expander("Upload Cell Profile From File"):
+    with st.expander("Upload Cell Profile From File (Optional)"):
         json_dict = {}
         uploaded_file = st.file_uploader("Upload a JSON-LD metadata profile", accept_multiple_files=False)
         if uploaded_file is not None:
@@ -1634,8 +1634,10 @@ with cols[2]:
 
 if data_button:
     st.session_state.data_button_clicked = True
+    st.session_state.custom_cell_button_clicked = False
 elif custom_cell_button:
     st.session_state.custom_cell_button_clicked = True
+    st.session_state.data_button_clicked = False
 
 # st.write("")
 # st.write("")
