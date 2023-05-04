@@ -1447,13 +1447,12 @@ def custom_cell_annotator():
 
 def cell_identification_metadata():
     default_value = "e.g. http://www.example.com/8675309"
-    if st.checkbox('Retrieve from file'):
-        st.write("Check")
-        uploaded_file = st.file_uploader("Upload a JSON-LD metadata profile", accept_multiple_files=False)
-        if uploaded_file is not None:
-            content = uploaded_file.read()
-            json_dict = json.loads(content.decode('utf-8'))
-            default_value = json_dict["@id"]
+    st.write("Upload cell metadata description or enter identifier manually below")
+    uploaded_file = st.file_uploader("Upload a JSON-LD metadata profile", accept_multiple_files=False)
+    if uploaded_file is not None:
+        content = uploaded_file.read()
+        json_dict = json.loads(content.decode('utf-8'))
+        default_value = json_dict["@id"]
 
     cell_IRI = st.text_input(label='Persistent Identifier of the Battery Cell', value = default_value)
 
