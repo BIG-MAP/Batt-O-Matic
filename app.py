@@ -409,7 +409,6 @@ def rectangular_cell_properties(default_values):
     return output_dict
 
 def round_cell_properties(default_values):
-    st.write(default_values)
     length_units = ('mm', 'micron')
     mass_units = ('g', 'kg')
     col1, col2 = st.columns(2)

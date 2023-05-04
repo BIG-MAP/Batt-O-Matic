@@ -1,5 +1,8 @@
+import streamlit as st
+import custom_cell_annotation_utils as ut
+
 def custom_cell_annotator():
-    loaded_dict = load_from_file()
+    loaded_dict = ut.load_from_file()
     if not bool(loaded_dict):
         input_dict = default_dict
         default_format = default_dict["@type"].replace("Cell", "")
