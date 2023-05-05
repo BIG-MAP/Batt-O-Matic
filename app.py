@@ -1573,6 +1573,7 @@ def data_annotator():
                 "dcat:title": title,
                 "dcat:descripton": description,
                 "dcat:structure": {
+                    "@id": namespace+str(uuid.uuid4()),
                     "@type": "qb:DataStructureDefinition",
                     "dcat:component": components
                 }
