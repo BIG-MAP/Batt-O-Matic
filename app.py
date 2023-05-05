@@ -898,6 +898,7 @@ def disperse_fields_to_json(format_data, production_properties, physical_propert
     with open(f"{datadir}/BatteryCell.jsonld") as f:
         jsonld_data = json.load(f)
 
+    st.write(jsonld_data["hasPositiveElectrode"]["hasConstituent"][1]["hasConstituent"][0]["@type"])
     # Cell Production Properties
     jsonld_data["@id"]                      = namespace+str(uuid.uuid4())
     jsonld_data["schema:name"]              = production_properties["name"]
