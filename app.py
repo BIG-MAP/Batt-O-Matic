@@ -920,29 +920,13 @@ def disperse_fields_to_json(format_data, production_properties, physical_propert
         jsonld_data["hasQuantitativeProperty"][1]["@id"] = namespace+str(uuid.uuid4())
         jsonld_data["hasQuantitativeProperty"][2]["@id"] = namespace+str(uuid.uuid4())
         del jsonld_data["hasQuantitativeProperty"][3]
+        jsonld_data["hasQuantitativeProperty"][3]["@id"] = namespace+str(uuid.uuid4())
 
         jsonld_data["hasQuantitativeProperty"][0]["@type"] = "Mass"
         jsonld_data["hasQuantitativeProperty"][1]["@type"] = "Diameter"
         jsonld_data["hasQuantitativeProperty"][2]["@type"] = "Height"
+        jsonld_data["hasQuantitativeProperty"][3]["@type"] = "Capacity"
 
-        ## Cell Quantitative Property Value ID
-        jsonld_data["hasQuantitativeProperty"][0]["hasQuantityValue"]["@id"] = namespace+str(uuid.uuid4())
-        jsonld_data["hasQuantitativeProperty"][1]["hasQuantityValue"]["@id"] = namespace+str(uuid.uuid4())
-        jsonld_data["hasQuantitativeProperty"][2]["hasQuantityValue"]["@id"] = namespace+str(uuid.uuid4())
-        ## Cell Quantitative Property Value Data
-        jsonld_data["hasQuantitativeProperty"][0]["hasQuantityValue"]["hasNumericalData"] = physical_properties["mass"]["value"]
-        jsonld_data["hasQuantitativeProperty"][1]["hasQuantityValue"]["hasNumericalData"] = physical_properties["diameter"]["value"]
-        jsonld_data["hasQuantitativeProperty"][2]["hasQuantityValue"]["hasNumericalData"] = physical_properties["height"]["value"]
-        ## Cell Quantitative Property Value Unit
-        jsonld_data["hasQuantitativeProperty"][0]["hasReferenceUnit"] = physical_properties["mass"]["unit"]
-        jsonld_data["hasQuantitativeProperty"][1]["hasReferenceUnit"] = physical_properties["diameter"]["unit"]
-        jsonld_data["hasQuantitativeProperty"][2]["hasReferenceUnit"] = physical_properties["height"]["unit"]
-    else:
-        ## Cell Quantitative Property ID
-        jsonld_data["hasQuantitativeProperty"][0]["@id"] = namespace+str(uuid.uuid4())
-        jsonld_data["hasQuantitativeProperty"][1]["@id"] = namespace+str(uuid.uuid4())
-        jsonld_data["hasQuantitativeProperty"][2]["@id"] = namespace+str(uuid.uuid4())
-        jsonld_data["hasQuantitativeProperty"][3]["@id"] = namespace+str(uuid.uuid4())
         ## Cell Quantitative Property Value ID
         jsonld_data["hasQuantitativeProperty"][0]["hasQuantityValue"]["@id"] = namespace+str(uuid.uuid4())
         jsonld_data["hasQuantitativeProperty"][1]["hasQuantityValue"]["@id"] = namespace+str(uuid.uuid4())
@@ -950,14 +934,41 @@ def disperse_fields_to_json(format_data, production_properties, physical_propert
         jsonld_data["hasQuantitativeProperty"][3]["hasQuantityValue"]["@id"] = namespace+str(uuid.uuid4())
         ## Cell Quantitative Property Value Data
         jsonld_data["hasQuantitativeProperty"][0]["hasQuantityValue"]["hasNumericalData"] = physical_properties["mass"]["value"]
+        jsonld_data["hasQuantitativeProperty"][1]["hasQuantityValue"]["hasNumericalData"] = physical_properties["diameter"]["value"]
+        jsonld_data["hasQuantitativeProperty"][2]["hasQuantityValue"]["hasNumericalData"] = physical_properties["height"]["value"]
+        jsonld_data["hasQuantitativeProperty"][2]["hasQuantityValue"]["hasNumericalData"] = electrical_properties["cell_capacity"]["value"]
+        ## Cell Quantitative Property Value Unit
+        jsonld_data["hasQuantitativeProperty"][0]["hasReferenceUnit"] = physical_properties["mass"]["unit"]
+        jsonld_data["hasQuantitativeProperty"][1]["hasReferenceUnit"] = physical_properties["diameter"]["unit"]
+        jsonld_data["hasQuantitativeProperty"][2]["hasReferenceUnit"] = physical_properties["height"]["unit"]
+        jsonld_data["hasQuantitativeProperty"][2]["hasReferenceUnit"] = electrical_properties["cell_capacity"]["unit"]
+    else:
+        ## Cell Quantitative Property ID
+        jsonld_data["hasQuantitativeProperty"][0]["@id"] = namespace+str(uuid.uuid4())
+        jsonld_data["hasQuantitativeProperty"][1]["@id"] = namespace+str(uuid.uuid4())
+        jsonld_data["hasQuantitativeProperty"][2]["@id"] = namespace+str(uuid.uuid4())
+        jsonld_data["hasQuantitativeProperty"][3]["@id"] = namespace+str(uuid.uuid4())
+        jsonld_data["hasQuantitativeProperty"][4]["@id"] = namespace+str(uuid.uuid4())
+        ## Cell Quantitative Property Value ID
+        jsonld_data["hasQuantitativeProperty"][0]["hasQuantityValue"]["@id"] = namespace+str(uuid.uuid4())
+        jsonld_data["hasQuantitativeProperty"][1]["hasQuantityValue"]["@id"] = namespace+str(uuid.uuid4())
+        jsonld_data["hasQuantitativeProperty"][2]["hasQuantityValue"]["@id"] = namespace+str(uuid.uuid4())
+        jsonld_data["hasQuantitativeProperty"][3]["hasQuantityValue"]["@id"] = namespace+str(uuid.uuid4())
+        jsonld_data["hasQuantitativeProperty"][4]["hasQuantityValue"]["@id"] = namespace+str(uuid.uuid4())
+        ## Cell Quantitative Property Value Data
+        jsonld_data["hasQuantitativeProperty"][0]["hasQuantityValue"]["hasNumericalData"] = physical_properties["mass"]["value"]
         jsonld_data["hasQuantitativeProperty"][1]["hasQuantityValue"]["hasNumericalData"] = physical_properties["width"]["value"]
         jsonld_data["hasQuantitativeProperty"][2]["hasQuantityValue"]["hasNumericalData"] = physical_properties["height"]["value"]
         jsonld_data["hasQuantitativeProperty"][3]["hasQuantityValue"]["hasNumericalData"] = physical_properties["thickness"]["value"]
+        jsonld_data["hasQuantitativeProperty"][4]["hasQuantityValue"]["hasNumericalData"] = electrical_properties["cell_capacity"]["value"]
         ## Cell Quantitative Property Value Unit
         jsonld_data["hasQuantitativeProperty"][0]["hasReferenceUnit"] = physical_properties["mass"]["unit"]
         jsonld_data["hasQuantitativeProperty"][1]["hasReferenceUnit"] = physical_properties["width"]["unit"]
         jsonld_data["hasQuantitativeProperty"][2]["hasReferenceUnit"] = physical_properties["height"]["unit"]
         jsonld_data["hasQuantitativeProperty"][3]["hasReferenceUnit"] = physical_properties["thickness"]["unit"]
+        jsonld_data["hasQuantitativeProperty"][3]["hasReferenceUnit"] = electrical_properties["cell_capacity"]["unit"]
+
+    
 
     # Positive Electrode Properties
     jsonld_data["hasPositiveElectrode"]["@id"] = namespace+str(uuid.uuid4())
