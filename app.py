@@ -1447,7 +1447,7 @@ def custom_cell_annotator():
         
         #st.write(jsonld_data)
         # Define a filename for the downloaded file
-        filename = "custom_cell_metadata.json"
+        filename = production_properties["name"]+".json"
         json_data = json.dumps(jsonld_data, indent=4)
 
         # Write the JSON string to a file
