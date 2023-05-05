@@ -256,7 +256,7 @@
                 ],
                 "hasConstituent":[
                     {
-                        "@type": "ActiveMaterial",
+                        "@type": ["ActiveMaterial"],
                         "hasQuantitativeProperty":[
                             {
                                 "@type": "MassFraction",

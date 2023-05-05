@@ -1052,7 +1052,7 @@ def disperse_fields_to_json(format_data, production_properties, physical_propert
     
     # Positive Electrode Active Material
     jsonld_data["hasPositiveElectrode"]["hasConstituent"][1]["hasConstituent"][0]["@id"] = namespace+str(uuid.uuid4())
-    jsonld_data["hasPositiveElectrode"]["hasConstituent"][1]["hasConstituent"][0]["@type"] = pe_properties["active_material"]["value"]
+    jsonld_data["hasPositiveElectrode"]["hasConstituent"][1]["hasConstituent"][0]["@type"][1] = pe_properties["active_material"]["value"]
     ## Positive Electrode Active Material Quantitative Property ID
     jsonld_data["hasPositiveElectrode"]["hasConstituent"][1]["hasConstituent"][0]["hasQuantitativeProperty"][0]["@id"] = namespace+str(uuid.uuid4())
     jsonld_data["hasPositiveElectrode"]["hasConstituent"][1]["hasConstituent"][0]["hasQuantitativeProperty"][1]["@id"] = namespace+str(uuid.uuid4())
