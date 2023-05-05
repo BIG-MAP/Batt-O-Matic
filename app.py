@@ -1561,8 +1561,8 @@ def data_annotator():
 
                 components.append({
                     "@type": "qb:ComponentSpecification",
-                    "qb:dimension": quantity_iri,
-                    "qb:unit": unit_iri,
+                    "qb:dimension": {"@id": quantity_iri},
+                    "qb:unit": {"@id": unit_iri},
                     "qb:order": ind+1
                 })
 
