@@ -902,8 +902,8 @@ def disperse_fields_to_json(format_data, production_properties, physical_propert
     jsonld_data["@id"]                      = namespace+str(uuid.uuid4())
     jsonld_data["schema:name"]              = production_properties["name"]
     jsonld_data["schema:productionDate"]    = production_properties["productionDate"]
-    jsonld_data["schema:manufacturer"]      = production_properties["manufacturer"]
-    jsonld_data["schema:creator"]           = production_properties["creator"]
+    jsonld_data["schema:manufacturer"]      = {"@id": production_properties["manufacturer"]}
+    jsonld_data["schema:creator"]           = {"@id": production_properties["creator"]}
     if format_data["cell_format"]["value"] == "Coin":
         jsonld_data["@type"] = "CoinCell"
     elif format_data["cell_format"]["value"] == "Pouch":
@@ -1712,12 +1712,12 @@ def data_annotator():
             "dcat:description": bibliographic_metadata["description"],
             "dcat:accessURL": bibliographic_metadata["accessURL"],
             "dcat:format": "text/csv",
-            "dcterms:subject": cell_metadata["cell_IRI"]
+            "dcterms:subject": {"@id": cell_metadata["cell_IRI"]}
         }
         output_dict = {**header, **dataset_dict}
 
         # Define a filename for the downloaded file
-        filename = "csv_data_metadata.json"
+        filename = bibliographic_metadata["title"]+".json"
         json_data = json.dumps(output_dict, indent=4)
 
         # Write the JSON string to a file
