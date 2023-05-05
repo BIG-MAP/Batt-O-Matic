@@ -1,0 +1,326 @@
+[
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/01f677e56",
+    "@type": "schema:ResearchOrganization",
+    "schema:name": "The Foundation for Industrial and Technical Research",
+    "schema:alternateName": "SINTEF"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/04qtj9h94",
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "Technical University of Denmark",
+    "schema:alternateName": "DTU"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/048a87296",
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "Uppsala University",
+    "schema:alternateName": "UU"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/04t3en479",
+    "@type": "schema:ResearchOrganization",
+    "schema:name": "Karlsruhe Institute of Technology",
+    "schema:alternateName": "KIT"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/02feahw73",
+    "@type": "schema:ResearchOrganization",
+    "schema:name": "French National Centre for Scientific Research",
+    "schema:alternateName": "CNRS"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/00pd74e08",
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "Westphalian Wilhelm University of Munster",
+    "schema:alternateName": "WWU"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/00jjx8s55",
+    "@type": "schema:ResearchOrganization",
+    "schema:name": "French Alternative Energies and Atomic Energy Commission",
+    "schema:alternateName": "CEA"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/050mac570",
+    "@type": "schema:ResearchOrganization",
+    "schema:name": "National Institute of Chemistry",
+    "schema:alternateName": "NIC"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/00bgk9508",
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "Polytechnic University of Turin",
+    "schema:alternateName": "POLITO"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/05hkkdn48",
+    "@type": "schema:ResearchOrganization",
+    "schema:name": "Fraunhofer Society",
+    "schema:alternateName": "Fraunhofer"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/040wg7k59",
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "Chalmers University of Technology",
+    "schema:alternateName": "Chalmers"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/00y0xnp53",
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "Warsaw University of Technology",
+    "schema:alternateName": "WUT"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/02gfc7t72",
+    "@type": "schema:ResearchOrganization",
+    "schema:name": "Spanish National Research Council",
+    "schema:alternateName": "CSIC"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/02e2c7k09",
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "Delft University of Technology",
+    "schema:alternateName": "TU Delft"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/04zaypm56",
+    "@type": "schema:ResearchOrganization",
+    "schema:name": "National Research Council",
+    "schema:alternateName": "CNR"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/02s376052",
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "Swiss Federal Institute of Technology Lausanne",
+    "schema:alternateName": "EPFL"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/013meh722",
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "The Chancellor, Masters and Scholars of the University of Cambridge",
+    "schema:alternateName": "[University of Cambridge, CU]"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/052gg0110",
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "The Chancellor, Masters and Scholars of the University of Oxford",
+    "schema:alternateName": "[University of Oxford, Oxf]"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/03z77qz90",
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "University of Tartu",
+    "schema:alternateName": "UT"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/04xs57h96",
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "The University of Liverpool",
+    "schema:alternateName": "UOL"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/02550n020",
+    "@type": "schema:ResearchOrganization",
+    "schema:name": "European Synchotron Radiation Facility",
+    "schema:alternateName": "ESRF"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/01xtjs520",
+    "@type": "schema:ResearchOrganization",
+    "schema:name": "Institut Laue?Langevin",
+    "schema:alternateName": "ILL"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/01ydb3330",
+    "@type": "schema:ResearchOrganization",
+    "schema:name": "French national synchrotron facility",
+    "schema:alternateName": "SOLEIL"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/03vgz7r63",
+    "@type": "schema:ResearchOrganization",
+    "schema:name": "CIDETEC Foundation",
+    "schema:alternateName": "CIDETEC"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://www.linkedin.com/company/emiri",
+    "@type": "schema:Organization",
+    "schema:name": "Energy Materials Industrial Research Initiative",
+    "schema:alternateName": "EMIRI"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/00zwdnt53",
+    "@type": "schema:Corporation",
+    "schema:name": "Umicore N.V.",
+    "schema:alternateName": "UMICORE"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/01g8djv19",
+    "@type": "schema:Corporation",
+    "schema:name": "Solvay S.A.",
+    "schema:alternateName": "Solvay"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/01q8f6705",
+    "@type": "schema:Corporation",
+    "schema:name": "BASF SE",
+    "schema:alternateName": "BASF"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/01xwy3t39",
+    "@type": "schema:Corporation",
+    "schema:name": "Northvolt AB",
+    "schema:alternateName": "Northvolt"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/02s6k3f65",
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "University of Basel",
+    "schema:alternateName": "UNIBAS"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/02309jg23",
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "IT University of Copenhagen",
+    "schema:alternateName": "ITU"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/01mw2b749",
+    "@type": "schema:Corporation",
+    "schema:name": "Dassault Systemes Germany GmbH",
+    "schema:alternateName": "3DS"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/02nv7yv05",
+    "@type": "schema:ResearchOrganization",
+    "schema:name": "Research Centre Julich",
+    "schema:alternateName": "FZJ"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/04zyzzh22",
+    "@type": "schema:Corporation",
+    "schema:name": "Saft",
+    "schema:alternateName": "Saft"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/03dbr7087",
+    "@type": "schema:CollegeOrUniversity",
+    "schema:name": "University of Toronto",
+    "schema:alternateName": "U of T"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://ror.org/03eh3y714",
+    "@type": "schema:ResearchOrganization",
+    "schema:name": "Paul Scherrer Institute",
+    "schema:alternateName": "PSI"
+  }
+]

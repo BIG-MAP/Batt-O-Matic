@@ -1,0 +1,1038 @@
+[
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-8758-6109",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Clark",
+    "schema:additionalName": null,
+    "schema:givenName": "Simon",
+    "schema:email": "simon.clark@sintef.no",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/01f677e56",
+    "schema:image": "https://www.sintef.no/contentassets/c028f84027bb4a4bbded3675beaef2b0/simon.clark-sintef.no.jpg?width=180&height=180&mode=crop&scale=both"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0001-5880-5045",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Castelli",
+    "schema:additionalName": "Eligio",
+    "schema:givenName": "Ivano",
+    "schema:email": "ivca@dtu.dk",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/04qtj9h94",
+    "schema:image": "https://orbit.dtu.dk/files-asset/275249276/62570_fdfc7f42.jpg?w=160&f=webp"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-2590-7050",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Norby",
+    "schema:additionalName": null,
+    "schema:givenName": "Poul",
+    "schema:email": "pnor@dtu.dk",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/04qtj9h94",
+    "schema:image": "https://orbit.dtu.dk/files-asset/275248433/54611_0353678f.jpg?w=160&f=webp"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-1484-0284",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Vegge",
+    "schema:additionalName": null,
+    "schema:givenName": "Tejs",
+    "schema:email": "teve@dtu.dk",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/04qtj9h94",
+    "schema:image": "https://orbit.dtu.dk/files-asset/275240234/5334_78637b14.jpg?w=160&f=webp"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-3198-5116",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Bhowmik",
+    "schema:additionalName": null,
+    "schema:givenName": "Arghya",
+    "schema:email": "arbh@dtu.dk",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/04qtj9h94",
+    "schema:image": "https://suncat.stanford.edu/sites/default/files/styles/people_image/public/arghya.jpg?itok=3XOf_5cR"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-2352-0458",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Hermansson",
+    "schema:additionalName": null,
+    "schema:givenName": "Kersti",
+    "schema:email": "kersti@kemi.uu.se",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/048a87296",
+    "schema:image": "https://webb.uu.se/image/full_image?img_id=1485494&t=1397620202000"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-8019-2801",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Brandell",
+    "schema:additionalName": null,
+    "schema:givenName": "Daniel",
+    "schema:email": "daniel.brandell@kemi.uu.se",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/048a87296",
+    "schema:image": "https://webb.uu.se/image/full_image?img_id=63141468&t=1479461061110"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-9842-4332",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Broqvist",
+    "schema:additionalName": null,
+    "schema:givenName": "Peter",
+    "schema:email": "peter.broqvist@kemi.uu.se",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/048a87296",
+    "schema:image": "https://webb.uu.se/image/full_image?img_id=353972387&t=1559036978520"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-4440-2952",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Edstrom",
+    "schema:additionalName": null,
+    "schema:givenName": "Kristina",
+    "schema:email": "kristina.edstrom@kemi.uu.se",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/048a87296",
+    "schema:image": "https://webb.uu.se/image/full_image?img_id=318818371&t=1551775142247"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-7127-1823",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Fichtner",
+    "schema:additionalName": null,
+    "schema:givenName": "Maximilian",
+    "schema:email": "maximilian.fichtner@kit.edu",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/04t3en479",
+    "schema:image": "https://www.int.kit.edu/img/RG_Fichtner/Max%20Foto%20%20Jun19_rdax_230x332s.jpg"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0001-9487-4689",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Wenzel",
+    "schema:additionalName": null,
+    "schema:givenName": "Wolfgang",
+    "schema:email": "wolfgang.wenzel@kit.edu",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/04t3en479",
+    "schema:image": "https://www.int.kit.edu/img/RU_Wenzel/wolfgang_wenzel_rdax_500x653s.JPG"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-2120-5980",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Punckt",
+    "schema:additionalName": null,
+    "schema:givenName": "Christian",
+    "schema:email": "christian.punckt@kit.edu",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/04t3en479",
+    "schema:image": "https://www.int.kit.edu/img/christian_punckt_rdax_230x291p.jpg"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-9966-205X",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Grimaud",
+    "schema:additionalName": null,
+    "schema:givenName": "Alexis",
+    "schema:email": "alexis.grimaud@college-de-france.fr",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/02feahw73",
+    "schema:image": "https://www.bc.edu/content/bc-web/schools/mcas/departments/chemistry/people/faculty-directory/alexis-grimaud/_jcr_content/profileImage.img.png"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-7059-6845",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Tarascon",
+    "schema:additionalName": null,
+    "schema:givenName": "Jean-Marie",
+    "schema:email": "jean-marie.tarascon@college-de-france.fr",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/02feahw73",
+    "schema:image": "https://i0.wp.com/solid-state-chemistry-energy-lab.org/wp-content/uploads/2017/02/jmt-e1563794795954.jpg?resize=342%2C342&ssl=1"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0001-7362-7849",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Franco",
+    "schema:additionalName": null,
+    "schema:givenName": "Alejandro",
+    "schema:email": "alejandro.franco@u-picardie.fr",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/02feahw73",
+    "schema:image": "https://le-cdn.website-editor.net/s/95de27ea0c344e4daf34902e5ebe0f34/dms3rep/multi/opt/Photo+Franco+2-1920w.jpg?Expires=1684337459&Signature=dbs417ULqE55kjU19~9AwlSvu61VwugOSJu9alEAwVRehCGh4ODBLwAzH0blbdlYhMEdwULFdkqUZkkpPiiPo7zY-r1TduMx0BYlKYpdH5K~oFx5rlOOCXGhfzrCTmtBXOKyL~JWs5E4IWJKSt0nUKlyHzNFnmI7czxYQ3e64jxynMe9h8pzyuuVqM4iSWN0wU459tlFqir-yun9PvL7gOwbVT59jS~1HeJ42BWIW-sSAJZjTgEeEpi55YvOi~sF2oEoncwzFYsw2dCQvrpb5R7xmqv7~~ZkqyLlS0Ph6KtmrbMIbQppITkbEOdYc8PJa0tA8aHjMw1PwZmb7sE6gw__&Key-Pair-Id=K2NXBXLF010TJW"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-0461-8268",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Simon",
+    "schema:additionalName": null,
+    "schema:givenName": "Patrice",
+    "schema:email": "simon@chimie.ups-tlse.fr",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/02feahw73",
+    "schema:image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/PSimon_2019.jpg/375px-PSimon_2019.jpg"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-2592-0287",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Heuer",
+    "schema:additionalName": null,
+    "schema:givenName": "Andreas",
+    "schema:email": "andheuer@uni-muenster.de",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/00pd74e08",
+    "schema:image": "https://www.uni-muenster.de/imperia/md/images/cim/_aktive/ha_1-1.jpg"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-4176-5811",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Winter",
+    "schema:additionalName": null,
+    "schema:givenName": "Martin",
+    "schema:email": "martin.winter@uni-muenster.de",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/00pd74e08",
+    "schema:image": "https://www.uni-muenster.de/imperia/md/images/meet/2015_relaunch/team/_mg_5226_1_1_1_web_200.jpg"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-2580-8439",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Lyonnard",
+    "schema:additionalName": null,
+    "schema:givenName": "Sandrine",
+    "schema:email": "sandrine.lyonnard@cea.fr",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/00jjx8s55",
+    "schema:image": "https://www.symmes.fr/PublishingImages/min_Sandrine-Lyonnard.jpg"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-2679-3072",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Van Roekeghem",
+    "schema:additionalName": null,
+    "schema:givenName": "Ambroise",
+    "schema:email": "ambroise.vanroekeghem@cea.fr",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/00jjx8s55",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-3436-8279",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Le Cras",
+    "schema:additionalName": null,
+    "schema:givenName": "Fr\u00e9d\u00e9ric",
+    "schema:email": "frederic.lecras@cea.fr",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/00jjx8s55",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-5551-2391",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Daniel",
+    "schema:additionalName": null,
+    "schema:givenName": "Lise",
+    "schema:email": "lise.daniel@cea.fr",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/00jjx8s55",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-6673-4459",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Dominko",
+    "schema:additionalName": null,
+    "schema:givenName": "Robert",
+    "schema:email": "robert.dominko@ki.si",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/050mac570",
+    "schema:image": "https://www.polystorage-etn.eu/wp-content/uploads/2020/07/polystorage-robert-dominko.jpg"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-8104-1693",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Gaberscek",
+    "schema:additionalName": null,
+    "schema:givenName": "Miran",
+    "schema:email": "miran.gaberscek@ki.si",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/050mac570",
+    "schema:image": "https://www.ki.si/fileadmin/_processed_/8/b/csm_miran_gaberscek_3de8d5af90.jpg"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-1560-809X",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Friis",
+    "schema:additionalName": null,
+    "schema:givenName": "Jesper",
+    "schema:email": "jesper.friis@sintef.no",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/01f677e56",
+    "schema:image": "https://www.sintef.no/contentassets/b0975c3795464595b9973ebcd20450d7/jesper.friis-sintef.no.jpg?width=180&height=180&mode=crop&scale=both"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-2954-1233",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Flores",
+    "schema:additionalName": null,
+    "schema:givenName": "Eibar",
+    "schema:email": "eibar.flores.cedeno@sintef.no",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/01f677e56",
+    "schema:image": "https://www.sintef.no/contentassets/5311ce90dab946f5bffd0c2811c88a9f/eibar.flores.cedeno-sintef.no.jpg?width=180&height=180&mode=crop&scale=both"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0001-8869-3718",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Bleken",
+    "schema:additionalName": "L\u203anstad",
+    "schema:givenName": "Francesca",
+    "schema:email": "francesca.l.bleken@sintef.no",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/01f677e56",
+    "schema:image": "https://www.sintef.no/contentassets/5040fec2feec4a5996da55cf495c4ab7/francesca.l.bleken-sintef.no.jpg?width=180&height=180&mode=crop&scale=both"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-2547-155X",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Andersen",
+    "schema:additionalName": "Welzel",
+    "schema:givenName": "Casper",
+    "schema:email": "casper.w.andersen@sintef.no",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/01f677e56",
+    "schema:image": "https://www.sintef.no/contentassets/1045775e6f9d401ea99f6f1b95f04603/casper.w.andersen-sintef.no.jpg?width=180&height=180&mode=crop&scale=both"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-4169-1544",
+    "@type": "schema:Researcher",
+    "schema:familyName": "L\u00f8vvik",
+    "schema:additionalName": null,
+    "schema:givenName": "Ole Martin",
+    "schema:email": "olemartin.lovvik@sintef.no",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/01f677e56",
+    "schema:image": "https://www.sintef.no/contentassets/0f95abdd4d7b44d380f01de190da0909/olemartin.lovvik-sintef.no.jpg?width=180&height=180&mode=crop&scale=both"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-2268-1260",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Sagvolden",
+    "schema:additionalName": null,
+    "schema:givenName": "Espen",
+    "schema:email": "espen.sagvolden@sintef.no",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/01f677e56",
+    "schema:image": "https://www.sintef.no/contentassets/c7a8e6cbd9bf497eb2443f07333ec54e/espen.sagvolden-sintef.no.jpg?width=180&height=180&mode=crop&scale=both"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-2771-2860",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Fertitta",
+    "schema:additionalName": null,
+    "schema:givenName": "Edoardo",
+    "schema:email": "edoardo.fertitta@sintef.no",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/01f677e56",
+    "schema:image": "https://www.sintef.no/contentassets/e61a21279bba436d8547006e17514cf5/edoardo.fertitta-sintef.no.jpg?width=180&height=180&mode=crop&scale=both"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-1814-3846",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Asinari",
+    "schema:additionalName": null,
+    "schema:givenName": "Pietro",
+    "schema:email": "pietro.asinari@polito.it",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/00bgk9508",
+    "schema:image": "https://www.swas.polito.it/_library/image_pub.asp?matricola=011661"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-9104-0571",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Marchisio",
+    "schema:additionalName": null,
+    "schema:givenName": "Daniele",
+    "schema:email": "daniele.marchisio@polito.it",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/00bgk9508",
+    "schema:image": "https://www.swas.polito.it/_library/image_pub.asp?matricola=003675"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-3579-9778",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Bodoardo",
+    "schema:additionalName": null,
+    "schema:givenName": "Silvia",
+    "schema:email": "silvia.bodoardo@polito.it",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/00bgk9508",
+    "schema:image": "https://www.swas.polito.it/_library/image_pub.asp?matricola=001906"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-2133-5312",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Posset",
+    "schema:additionalName": null,
+    "schema:givenName": "Uwe",
+    "schema:email": "uwe.posset@isc.fraunhofer.de",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/05hkkdn48",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-0427-1644",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Dembski",
+    "schema:additionalName": null,
+    "schema:givenName": "Sofia",
+    "schema:email": "sofia.dembski@isc.fraunhofer.de",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/05hkkdn48",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-1652-3781",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Johansson",
+    "schema:additionalName": null,
+    "schema:givenName": "Patrik",
+    "schema:email": "patrik.johansson@chalmers.se",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/040wg7k59",
+    "schema:image": "https://chalmers.se/_next/image/?url=https%3A%2F%2Fcms.www.chalmers.se%2FMedia%2F2k2blqmj%2Fjpatrik.jpg%3Fwidth%3D600%26height%3D600%26rnd%3D133240820300700000%26format%3Dwebp&w=640&q=75"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0001-8341-0870",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Lutz",
+    "schema:additionalName": null,
+    "schema:givenName": "Mareike",
+    "schema:email": "mareike.lutz@chalmers.se",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/040wg7k59",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-4414-9504",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Matic",
+    "schema:additionalName": null,
+    "schema:givenName": "Aleksander",
+    "schema:email": "matic@chalmers.se",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/040wg7k59",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-3881-3838",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Wieczorek",
+    "schema:additionalName": null,
+    "schema:givenName": "Wladyslaw",
+    "schema:email": "wladek@ch.pw.edu.pl",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/00y0xnp53",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-7534-0849",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Marcinek",
+    "schema:additionalName": null,
+    "schema:givenName": "Marek",
+    "schema:email": "marekmaer@ch.pw.edu.pl",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/00y0xnp53",
+    "schema:image": "https://onlinelibrary.wiley.com/cms/asset/32fe22ef-5510-495e-b2d6-eb1bc1b98884/aenm202102702-gra-0007.png"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-6745-0044",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Niedzicki",
+    "schema:additionalName": null,
+    "schema:givenName": "Leszek",
+    "schema:email": "lniedzicki@ch.pw.edu.pl",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/00y0xnp53",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0001-7351-2005",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Palacon",
+    "schema:additionalName": "Maria",
+    "schema:givenName": "Rosa",
+    "schema:email": "rosa.palacin@icmab.es",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/02gfc7t72",
+    "schema:image": "https://icmab.es/templates/yootheme/cache/d4/palacin-d4fad781.jpeg"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-0214-4115",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Tchitchekova",
+    "schema:additionalName": null,
+    "schema:givenName": "Deyana",
+    "schema:email": "dtchitchekova@icmab.es",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/02gfc7t72",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-8232-6324",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Ponrouch",
+    "schema:additionalName": null,
+    "schema:givenName": "Alexandre",
+    "schema:email": "aponrouch@icmab.es",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/02gfc7t72",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-3851-1044",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Wagemaker",
+    "schema:additionalName": null,
+    "schema:givenName": "Marnix",
+    "schema:email": "m.wagemaker@tudelft.nl",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/02e2c7k09",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-8278-5213",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Molinari",
+    "schema:additionalName": null,
+    "schema:givenName": "Elisa",
+    "schema:email": "elisa.molinari@unimore.it",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/04zaypm56",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-3003-8096",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Neri",
+    "schema:additionalName": null,
+    "schema:givenName": "Luisa",
+    "schema:email": "luisa.neri@nano.cnr.it",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/04zaypm56",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-7294-7450",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Prezzi",
+    "schema:additionalName": null,
+    "schema:givenName": "Deborah",
+    "schema:email": "deborah.prezzi@nano.cnr.it",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/04zaypm56",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-9764-0199",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Marzari",
+    "schema:additionalName": null,
+    "schema:givenName": "Nicola",
+    "schema:email": "nicola.marzari@epfl.ch",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/02s376052",
+    "schema:image": "https://people.epfl.ch/private/common/photos/links/210230.jpg?ts=1681758932"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-3583-4377",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Pizzi",
+    "schema:additionalName": null,
+    "schema:givenName": "Giovanni",
+    "schema:email": "giovanni.pizzi@epfl.ch",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/03eh3y714",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-8180-2034",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Csanyi",
+    "schema:additionalName": null,
+    "schema:givenName": "Gabor",
+    "schema:email": "gc121@cam.ac.uk",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/013meh722",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0001-5572-192X",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Grey",
+    "schema:additionalName": null,
+    "schema:givenName": "Clare",
+    "schema:email": "cpg27@cam.ac.uk",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/013meh722",
+    "schema:image": "https://www.ch.cam.ac.uk/files/styles/portrait/public/portraits/cpg27.jpg?itok=NQU1nt1f"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0001-6748-3084",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Bruce",
+    "schema:additionalName": "George",
+    "schema:givenName": "Peter",
+    "schema:email": "peter.bruce@materials.ox.ac.uk",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/052gg0110",
+    "schema:image": "https://www.materials.ox.ac.uk/sites/default/files/styles/person_profile_photo/public/materialsoutreach/images/person/bruce-peter.jpg?itok=OsMtqtKZ"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-5873-0730",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Adamson",
+    "schema:additionalName": null,
+    "schema:givenName": "Paul",
+    "schema:email": "paul.adamson@materials.ox.ac.uk",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/052gg0110",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-0183-1282",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Aabloo",
+    "schema:additionalName": null,
+    "schema:givenName": "Alvo",
+    "schema:email": "alvo.aabloo@ut.ee",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/03z77qz90",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0001-8796-685X",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Hardwick",
+    "schema:additionalName": null,
+    "schema:givenName": "Laurence",
+    "schema:email": "hardwick@liverpool.ac.uk",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/04xs57h96",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0001-7730-6962",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Reichert",
+    "schema:additionalName": null,
+    "schema:givenName": "Harald",
+    "schema:email": "reichert@esrf.fr",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/02550n020",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-9520-1555",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Drnec",
+    "schema:additionalName": null,
+    "schema:givenName": "Jakub",
+    "schema:email": "drnec@esrf.fr",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/02550n020",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-4092-2088",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Ayerbe",
+    "schema:additionalName": "Olano",
+    "schema:givenName": "Elixabete",
+    "schema:email": "eayerbe@cidetec.es",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/03vgz7r63",
+    "schema:image": "https://pbs.twimg.com/media/E4KeyXUX0AAMtC6.jpg:large"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-6515-1841",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Lacunza",
+    "schema:additionalName": null,
+    "schema:givenName": "Jon",
+    "schema:email": "jlacunza@cidetec.es",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/03vgz7r63",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-2598-5761",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Cendoya",
+    "schema:additionalName": null,
+    "schema:givenName": "Ione",
+    "schema:email": "icendoya@cidetec.es",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/03vgz7r63",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-1328-5581",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Urdampilleta",
+    "schema:additionalName": null,
+    "schema:givenName": "Idoia",
+    "schema:email": "iurdampilleta@cidetec.es",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/03vgz7r63",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-5953-4213",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Cabelguen",
+    "schema:additionalName": null,
+    "schema:givenName": "Pierre-Etienne",
+    "schema:email": "pierre-etienne.cabelguen@eu.umicore.com",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/00zwdnt53",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-0718-7280",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Braida",
+    "schema:additionalName": null,
+    "schema:givenName": "Marc-David",
+    "schema:email": "marc-david.braida@solvay.com",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/01g8djv19",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-0669-6331",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Ulmefors",
+    "schema:additionalName": null,
+    "schema:givenName": "Marcus",
+    "schema:email": "marcus.ulmefors@northvolt.com",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/01xwy3t39",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0001-7419-0466",
+    "@type": "schema:Researcher",
+    "schema:familyName": "von Lilienfeld",
+    "schema:additionalName": null,
+    "schema:givenName": "Anatole",
+    "schema:email": "anatole.vonlilienfeld@utoronto.ca",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/03dbr7087",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-4155-5980",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Hanke",
+    "schema:additionalName": null,
+    "schema:givenName": "Felix",
+    "schema:email": "felix.hanke@3ds.com",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/01mw2b749",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-1116-1574",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Cekic-Laskovic",
+    "schema:additionalName": null,
+    "schema:givenName": "Isidora",
+    "schema:email": "i.cekic-laskovic@fz-juelich.de",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/02nv7yv05",
+    "schema:image": "https://onlinelibrary.wiley.com/cms/asset/95259e34-b511-48d9-bbb7-6c34fdf48c08/ijch202000102-bio-0001-m.jpg"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-2137-1332",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Diddens",
+    "schema:additionalName": null,
+    "schema:givenName": "Diddo",
+    "schema:email": "d.diddens@fz-juelich.de",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/02nv7yv05",
+    "schema:image": "https://i1.rgstatic.net/ii/profile.image/276950288486410-1443041502981_Q128/Diddo-Diddens.jpg"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0002-3461-0232",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Stein",
+    "schema:additionalName": "Soren",
+    "schema:givenName": "Helge",
+    "schema:email": "helge.stein@kit.edu",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/04t3en479",
+    "schema:image": "https://hiu-batteries.de/wp-content/uploads/2020/12/Portraet_Stein_rdax_1200x1800.jpg"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0001-7109-3900",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Liot",
+    "schema:additionalName": null,
+    "schema:givenName": "Fran\u2021ois",
+    "schema:email": "francois.liot@epfl.ch",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/02s376052",
+    "schema:image": null
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0003-0410-3616",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Stier",
+    "schema:additionalName": null,
+    "schema:givenName": "Simon",
+    "schema:email": "simon.stier@isc.fraunhofer.de",
+    "schema:gender": "schema:Male",
+    "schema:affiliation": "https://ror.org/05hkkdn48",
+    "schema:image": "https://www.isc.fraunhofer.de/content/businesscards/ISC/color/Simon_Stier/jcr:content/businesscard/image.img.1col.jpg/1662539324843/Simon-Stier-260x200.jpg"
+  },
+  {
+    "@context": {
+      "schema": "https://schema.org/"
+    },
+    "@id": "https://orcid.org/0000-0001-8514-5601",
+    "@type": "schema:Researcher",
+    "schema:familyName": "Vogler",
+    "schema:additionalName": null,
+    "schema:givenName": "Monika",
+    "schema:email": "monika.vogler@kit.edu",
+    "schema:gender": "schema:Female",
+    "schema:affiliation": "https://ror.org/04t3en479",
+    "schema:image": null
+  }
+]
