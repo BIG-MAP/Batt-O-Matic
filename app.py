@@ -1560,6 +1560,7 @@ def data_annotator():
                 unit_iri = label_uri_dict[unit_prefLabel[unit]]
 
                 components.append({
+                    "@id": namespace+str(uuid.uuid4()),
                     "@type": "qb:ComponentSpecification",
                     "qb:dimension": {"@id": quantity_iri},
                     "qb:unit": {"@id": unit_iri},
@@ -1567,6 +1568,7 @@ def data_annotator():
                 })
 
             dataset_dict = {
+                "@id": namespace+str(uuid.uuid4()),
                 "@type": "qb:DataSet",
                 "dcat:title": title,
                 "dcat:descripton": description,
