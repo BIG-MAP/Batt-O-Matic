@@ -1752,12 +1752,12 @@ if "data_button_clicked" not in st.session_state:
 if "custom_cell_button_clicked" not in st.session_state:
     st.session_state.custom_cell_button_clicked = False
 
-cols = st.columns(3)
+cols = st.columns(2)
 with cols[0]:
     custom_cell_button= st.button("Custom Cell", use_container_width=True)
+# with cols[1]:
+#     commercial_cell_button= st.button("Commercial Cell", use_container_width=True)
 with cols[1]:
-    commercial_cell_button= st.button("Commercial Cell", use_container_width=True)
-with cols[2]:
     data_button = st.button("CSV Data", use_container_width=True)
 
 if data_button:
