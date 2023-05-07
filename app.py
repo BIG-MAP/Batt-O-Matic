@@ -1554,7 +1554,7 @@ def data_annotator():
                 
                 for row in result:
                     elucidation = row['o']
-                    col2.write(elucidation)
+                    #col2.write(elucidation)
 
                 quantity_iri = label_uri_dict[quantity]
                 unit_iri = label_uri_dict[unit_prefLabel[unit]]
@@ -1754,7 +1754,7 @@ if "custom_cell_button_clicked" not in st.session_state:
 
 cols = st.columns(2)
 with cols[0]:
-    custom_cell_button= st.button("Custom Cell", use_container_width=True)
+    custom_cell_button= st.button("Cell Description", use_container_width=True)
 # with cols[1]:
 #     commercial_cell_button= st.button("Commercial Cell", use_container_width=True)
 with cols[1]:
