@@ -1728,7 +1728,7 @@ def data_annotator():
 
         
 
-st.title("Batt-O-Matic (beta)")
+st.title("Batt-O-Matic")
 st.write("Generate FAIR battery metadata")
 # st.write("")
 # st.write("")
